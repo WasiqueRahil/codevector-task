@@ -22,7 +22,7 @@ router.get("/", async (req, res) => {
     }
 
     const products = await Product.find(filter)
-      .sort({ _id: -1, _id: -1 })
+      .sort({ _id: -1})
       .limit(limit);
 
     const nextCursor =
