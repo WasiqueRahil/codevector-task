@@ -169,6 +169,12 @@ node scripts/seed.js
 
 ---
 
+## User Interface
+
+A lightweight HTML/CSS/JavaScript is include for browsing products, applying category filters, and loading additional results using cursor based pagination.
+
+---
+
 ## AI Usage
 
 AI tools were used for:
